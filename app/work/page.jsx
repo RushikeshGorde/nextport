@@ -41,12 +41,12 @@ const projects = [
   {
     num: '03',
     category: "frontend",
-    title: "project 1",
-    description: "Lorem",
+    title: "project 3",
+    description: "It serves as an online resume, showcasing the skills, projects, and experience. It likely features responsive design, allowing visitors to view the content seamlessly across different devices. The project might include sections such as About Me, Skills, Projects, Contact Information, and possibly a blog or other personalized content.",
     stack: [{ name: "Html " }, { name: "Css " }, { name: "Bootstrap" }, { name: "React" }, { name: "JavaScript" },],
     image: '/assets/Work/react.png',
-    live: '',
-    github: "",
+    live: 'https://nextport-sepia.vercel.app/',
+    github: "https://github.com/RushikeshGorde/nextport",
   },
   {
     num: '04',

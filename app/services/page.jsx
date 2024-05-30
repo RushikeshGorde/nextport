@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web Develope",
-    description: "Rushikesh Gorde",
+    description: "Designs and builds websites using programming languages like HTML, CSS, and JavaScript. Implements functionality, ensures responsiveness, and maintains web applications for optimal user experience",
     href: ""
   },
   {
     num: "02",
     title: "UI/UX Design",
-    description: "Rushikesh Gorde",
+    description: "UI/UX Design focuses on creating intuitive, visually appealing interfaces that enhance user experience, blending aesthetics with functionality to optimize user engagement and satisfaction.",
     href: ""
   },
   {
     num: "03",
     title: "BackEnd Developement",
-    description: "Rushikesh Gorde",
+    description: "Backend Development involves creating and maintaining server-side applications, databases, and APIs that power the functionality of web and mobile applications, handling data processing and business logic efficiently.",
     href: ""
   },
   {
     num: "04",
     title: "Dadabase Connection",
-    description: "Rushikesh Gorde",
+    description: "Database connection enables storing, retrieving, and managing data. It establishes a link between an application and a database system, facilitating data interaction and manipulation for various functionalities.",
     href: ""
   },
 ];

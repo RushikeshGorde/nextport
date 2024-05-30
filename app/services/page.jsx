@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web Develope",
-    description: "Designs and builds websites using programming languages like HTML, CSS, and JavaScript. Implements functionality, ensures responsiveness, and maintains web applications for optimal user experience",
+    description: "Web Developer: Creates interactive websites, applications, and interfaces using various programming languages and frameworks.",
     href: ""
   },
   {
     num: "02",
     title: "UI/UX Design",
-    description: "UI/UX Design focuses on creating intuitive, visually appealing interfaces that enhance user experience, blending aesthetics with functionality to optimize user engagement and satisfaction.",
+    description: "Strategically crafted interfaces for optimal user experiences, merging aesthetics with functionality for seamless interaction.",
     href: ""
   },
   {
     num: "03",
     title: "BackEnd Developement",
-    description: "Backend Development involves creating and maintaining server-side applications, databases, and APIs that power the functionality of web and mobile applications, handling data processing and business logic efficiently.",
+    description: "Backend Development: Powers server-side logic, databases, and APIs for web applications. Efficient, secure, scalable.",
     href: ""
   },
   {
     num: "04",
     title: "Dadabase Connection",
-    description: "Database connection enables storing, retrieving, and managing data. It establishes a link between an application and a database system, facilitating data interaction and manipulation for various functionalities.",
+    description: "Establishes secure link for data storage & retrieval; essential for web applications, ensuring seamless functionality.",
     href: ""
   },
 ];

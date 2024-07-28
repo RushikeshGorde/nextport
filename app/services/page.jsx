@@ -24,7 +24,7 @@ const services = [
   },
   {
     num: "04",
-    title: "Dadabase Connection",
+    title: "Freelancing",
     description: "Establishes secure link for data storage & retrieval; essential for web applications, ensuring seamless functionality.",
     href: ""
   },

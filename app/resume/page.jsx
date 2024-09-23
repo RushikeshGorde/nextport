@@ -66,11 +66,6 @@ const education = {
   description: "I will work as a software developer trainee in numetry technologies for 4 months. In that I did 5+ projects on front end and 1 project on mern stack and full stack.",
   items: [
     {
-      institution: "met bhujbal knowledge city college of engineering nashik",
-      degree: "MCA(master of computer application)",
-      duration: "2023-present",
-    },
-    {
       institution: "Coding Sikho insitute",
       degree: "software Developer",
       duration: "2023-present",

@@ -29,7 +29,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address: ",
-    description: "Balaji Nagar, Pune"
+    description: "Hinjewadi, Pune"
   },
 
 ];

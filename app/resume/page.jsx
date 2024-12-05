@@ -1,6 +1,8 @@
 "use client";
-import { FaHtml5, FaCss3, FaBootstrap, FaJs, FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaBootstrap, FaJs, FaReact, FaNodeJs, FaJava ,FaFlutter  } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
+import { AiOutlineDotNet } from "react-icons/ai";
+import { BsFiletypeSql } from "react-icons/bs";
 // about data 
 const about = {
   title: 'About me',
@@ -128,6 +130,18 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "tailwindcss",
+    },
+    {
+      icon: <FaFlutter   />,
+      name: "Flutter",
+    },
+    {
+      icon: <AiOutlineDotNet  />,
+      name: "ASP.NET API",
+    },
+    {
+      icon: <BsFiletypeSql  />,
+      name: "SQL/SSMS ",
     },
 
   ],

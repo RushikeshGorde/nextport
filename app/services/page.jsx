@@ -6,29 +6,30 @@ import { motion } from 'framer-motion';
 const services = [
   {
     num: "01",
-    title: "Web Develope",
-    description: "Web Developer: Creates interactive websites, applications, and interfaces using various programming languages and frameworks.",
+    title: "Full Stack Web Development",
+    description: "Expert in building dynamic and responsive web applications using React for frontend, .NET Web API for backend, and SQL Server (SSMS) for database management. Ensures robust architecture, seamless functionality, and optimal user experiences across platforms.",
     href: ""
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description: "Strategically crafted interfaces for optimal user experiences, merging aesthetics with functionality for seamless interaction.",
+    title: "Cross-Platform App Development",
+    description: "Developing high-performance, cross-platform mobile and web applications using Flutter. Combines efficient state management with GetX or Provider, robust backend integration via .NET Web API, and secure database connections using SQL Server.",
     href: ""
   },
   {
     num: "03",
-    title: "BackEnd Developement",
-    description: "Backend Development: Powers server-side logic, databases, and APIs for web applications. Efficient, secure, scalable.",
+    title: "UI/UX Design and Implementation",
+    description: "Delivers user-centric designs with seamless integration into functional applications. Leverages tools like Figma and Adobe XD to craft intuitive interfaces, while ensuring compatibility with React and Flutter for smooth user interactions.",
     href: ""
   },
   {
     num: "04",
-    title: "Freelancing",
-    description: "Establishes secure link for data storage & retrieval; essential for web applications, ensuring seamless functionality.",
+    title: "Backend Architecture and Database Solutions",
+    description: "Specializes in creating scalable and secure backend systems with .NET Web API. Handles complex database management with SQL Server (SSMS) to ensure data integrity, security, and optimized performance for enterprise-level applications.",
     href: ""
-  },
+  }
 ];
+
 
 
 const Services = () => {

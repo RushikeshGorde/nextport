@@ -68,6 +68,20 @@ const projects = [
     live: 'https://tech-logic.vercel.app/',
     github: "",
   },
+  {
+    num: "06",
+    category: "Flutter Full Stack",
+    title: "Time Attendance System",
+    description: "Developed for a hardware company, this project is a time attendance system for tracking employee attendance. Built using Flutter for the front-end and integrated with SSMS and ASP.NET for backend functionality. The project followed Agile methodologies for efficient project management.",
+    stack: [
+      { "name": "Flutter" },
+      { "name": "SSMS" },
+      { "name": "ASP.NET" }
+    ],
+    image: "/assets/Work/flutter.png",
+    live: "",
+    github: ""
+  }
 ]
 
 const Work = () => {

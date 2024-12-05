@@ -1,10 +1,13 @@
 "use client";
-import { FaHtml5, FaCss3, FaBootstrap, FaJs, FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaBootstrap, FaJs, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
+import { SiTailwindcss, SiFlutter, SiMicrosoftsqlserver, SiDotnet } from "react-icons/si";
+
 import { SiTailwindcss } from 'react-icons/si';
 // about data 
 const about = {
   title: 'About me',
-  description: "I'm Full Stack Web Developer with a good knowledge of front end languages like HTML5,CSS3,Bootstrap,Java Script,Jquery, React, NextJs,NodeJs, ExpressJs, Core Java, Advance Java, SpringBoot, MySQL and MongoDB",
+  description: "I'm a Full Stack Web Developer with a good knowledge of front-end and back-end technologies like HTML5, CSS3, Bootstrap, JavaScript, jQuery, React, Next.js, Node.js, Express.js, Core Java, Advanced Java, Spring Boot, MySQL, MongoDB, Flutter, ASP.NET, and SSMS. I also have experience working with Agile Methodology.",
+
   info: [
     {
       filedName: "Name: ",
@@ -43,9 +46,15 @@ const about = {
 
 const expreance = {
   icon: '',
-  title: 'My expreance',
+  title: 'My Experience',
   description: "I will work as a software developer trainee in numetry technologies for 4 months. In that I did 5+ projects on front end and 1 project on mern stack and full stack.",
   items: [
+    {
+
+      company: "Aadi Technology",
+      position: "Flutter Full Stack Developer",
+      duration: "Oct2024 - Present"
+    },
     {
 
       company: "Numetry technologies",
@@ -95,43 +104,54 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: "HTML5,CSS3,Bootstrap,Java Script,Jquery, React, NextJs,NodeJs, ExpressJs, Core Java, Advance Java, SpringBoot, MySQL and MongoDB",
+  description: "HTML5, CSS3, Bootstrap, JavaScript, jQuery, React, Next.js, Node.js, Express.js, Core Java, Advanced Java, Spring Boot, MySQL, MongoDB, Flutter, SSMS, .NET Web API",
   skillsList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML 5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "CSS 3",
     },
     {
       icon: <FaBootstrap />,
-      name: "bootStrap",
+      name: "Bootstrap",
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "JavaScript",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
     },
     {
       icon: <FaNodeJs />,
-      name: "node.js",
+      name: "Node.js",
     },
     {
       icon: <FaJava />,
-      name: " java",
+      name: "Java",
     },
     {
       icon: <SiTailwindcss />,
-      name: "tailwindcss",
+      name: "Tailwind CSS",
     },
-
+    {
+      icon: <SiFlutter />,
+      name: "Flutter",
+    },
+    {
+      icon: <SiMicrosoftsqlserver />,
+      name: "SSMS",
+    },
+    {
+      icon: <SiDotnet />,
+      name: ".NET Web API",
+    },
   ],
-}
+};
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 import {
@@ -160,7 +180,7 @@ const Resume = () => {
       className='flex flex-col xl:flex-row gap-[60px]'
     >
       <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-        <TabsTrigger value="expreance">Expreance</TabsTrigger>
+        <TabsTrigger value="expreance">Experience</TabsTrigger>
         <TabsTrigger value="education">Education</TabsTrigger>
         <TabsTrigger value="skills">Skills</TabsTrigger>
         <TabsTrigger value="about">About me</TabsTrigger>

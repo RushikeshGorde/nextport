@@ -1,6 +1,6 @@
 "use client";
 import { FaHtml5, FaCss3, FaBootstrap, FaJs, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiTailwindcss, SiFlutter, SiMicrosoftsqlserver, SiDotnet } from "react-icons/si";
+import {SiFlutter, SiMicrosoftsqlserver, SiDotnet } from "react-icons/si";
 
 import { SiTailwindcss } from 'react-icons/si';
 // about data 

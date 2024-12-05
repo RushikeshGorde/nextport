@@ -79,7 +79,7 @@ const projects = [
       { "name": "ASP.NET" }
     ],
     image: "/assets/Work/flutter.png",
-    live: "",
+    live: "https://aaditechnology.vercel.app/",
     github: ""
   }
 ]
